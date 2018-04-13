@@ -12,4 +12,8 @@ describe "foobarqix" do
   it "returns bar when divisible by 5" do
     expect(foobarqix(10)).to eq "bar"
   end
+
+  it "returns qix when divisible by 7" do
+    expect(foobarqix(14)).to eq "qix"
+  end
 end
