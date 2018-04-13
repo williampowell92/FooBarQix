@@ -29,7 +29,19 @@ describe "foobarqix" do
     expect(foobarqix(47)).to eq "qix"
   end
 
-  it "return foofoo when integer is divisible and contains 3" do
+  it "return foofoo when integer is divisible by and contains 3" do
     expect(foobarqix(3)).to eq "foofoo"
+  end
+
+  it "returns barbar when integer is divisible by and contains 5" do
+    expect(foobarqix(5)).to eq "barbar"
+  end
+
+  it "returns qixqix when integer is divisible by and contains 7" do
+    expect(foobarqix(7)).to eq "qixqix"
+  end
+
+  it "returns foofoofoo for 33" do
+    expect(foobarqix(33)).to eq "foofoofoo"
   end
 end
