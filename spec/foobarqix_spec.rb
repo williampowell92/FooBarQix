@@ -44,4 +44,13 @@ describe "foobarqix" do
   it "returns foofoofoo for 33" do
     expect(foobarqix(33)).to eq "foofoofoo"
   end
+
+  it "returns barbarbar for 55" do
+    expect(foobarqix(55)).to eq "barbarbar"
+  end
+
+  it "returns barbarbar for 77" do
+    expect(foobarqix(77)).to eq "qixqixqix"
+  end
+
 end

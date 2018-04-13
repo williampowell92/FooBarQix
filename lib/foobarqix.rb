@@ -20,11 +20,11 @@ end
 
 def digit_check(digit_counts)
   if digit_counts[0] > 0
-    "foo"
+    "foo"*digit_counts[0]
   elsif digit_counts[1] > 0
-    "bar"
+    "bar"*digit_counts[1]
   elsif digit_counts[2] > 0
-    "qix"
+    "qix"*digit_counts[2]
   else
     ""
   end
