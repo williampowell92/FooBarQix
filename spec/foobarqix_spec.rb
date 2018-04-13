@@ -17,7 +17,11 @@ describe "foobarqix" do
     expect(foobarqix(14)).to eq "qix"
   end
 
-  it "returns foo when when integer contains a 3" do
+  it "returns foo when integer contains a 3" do
     expect(foobarqix(13)).to eq "foo"
+  end
+
+  it "returns bar when integer contains 5" do
+    expect(foobarqix(52)).to eq "bar"
   end
 end
