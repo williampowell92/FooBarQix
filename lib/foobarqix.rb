@@ -3,19 +3,12 @@ def check_divisors(integer)
   divisor_string << "foo" if integer % 3 == 0
   divisor_string << "bar" if integer % 5 == 0
   divisor_string << "qix" if integer % 7 == 0
-  return divisor_string
+  divisor_string
 end
 
-def count_digits(integer)
-  [
-    integer.to_s.count("3"),
-    integer.to_s.count("5"),
-    integer.to_s.count("7")
-  ]
-end
-
-def digit_check(integer)
+def replace_foobarqix_digits(integer)
   digit_check = ""
+
   integer.to_s.split("").each do |x|
     digit_check << "foo" if x == "3"
     digit_check << "bar" if x == "5"
@@ -27,14 +20,14 @@ end
 
 def process_answer(digit_check, divisor_check, integer)
   if (digit_check == "") && (divisor_check == "")
-    return integer
+    integer
   else
-    return divisor_check + digit_check
+    divisor_check + digit_check
   end
 end
 
 def foobarqix(integer)
-  digit_check = digit_check(integer)
+  foobarqix_digits = replace_foobarqix_digits(integer)
   divisor_check = check_divisors(integer)
-  process_answer(digit_check, divisor_check, integer)
+  process_answer(foobarqix_digits, divisor_check, integer)
 end
