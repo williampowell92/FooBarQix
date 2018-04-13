@@ -30,17 +30,16 @@ def digit_check(digit_counts)
   end
 end
 
-def foobarqix(integer)
-
-  digit_check = digit_check(count_digits(integer))
-  divisor_check = check_divisors(integer)
-  puts digit_check
-  puts divisor_check
-
-  if (digit_check = "") && (divisor_check=="")
+def process_answer(digit_check, divisor_check, integer)
+  if (digit_check == "") && (divisor_check == "")
     return integer
   else
     return divisor_check + digit_check
   end
+end
 
+def foobarqix(integer)
+  digit_check = digit_check(count_digits(integer))
+  divisor_check = check_divisors(integer)
+  process_answer(digit_check, divisor_check, integer)
 end
