@@ -28,4 +28,8 @@ describe "foobarqix" do
   it "returns qix when integer contains 7" do
     expect(foobarqix(47)).to eq "qix"
   end
+
+  it "return foofoo when integer is divisible and contains 3" do
+    expect(foobarqix(3)).to eq "foofoo"
+  end
 end
