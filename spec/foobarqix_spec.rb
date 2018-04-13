@@ -16,4 +16,8 @@ describe "foobarqix" do
   it "returns qix when divisible by 7" do
     expect(foobarqix(14)).to eq "qix"
   end
+
+  it "returns foo when when integer contains a 3" do
+    expect(foobarqix(13)).to eq "foo"
+  end
 end
