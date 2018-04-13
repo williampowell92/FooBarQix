@@ -2,6 +2,10 @@
 
 Practicing pairing and TDD with foobarqix ruby kata.
 
+source:
+
+http://codingdojo.org/kata/FooBarQix/
+
 ### Specification
 
 1. If the number is divisible by 3, write "foo" instead of the number
