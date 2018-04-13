@@ -56,4 +56,8 @@ describe "foobarqix" do
   it "returns foobarbar for 15" do
     expect(foobarqix(15)).to eq "foobarbar"
   end
+
+  it "returns foobarqix for 57" do
+    expect(foobarqix(57)).to eq "foobarqix"
+  end
 end
