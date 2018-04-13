@@ -16,6 +16,10 @@ http://codingdojo.org/kata/FooBarQix/
 
 ### How to use
 
+The function can be required in a file or run from IRB. When called with an integer argument it will respond according to the specification.
+
+#### Example
+
 ```shell
 $ irb -r ./lib/foobarqix.rb
 
