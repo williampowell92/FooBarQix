@@ -17,4 +17,10 @@ $ irb -r ./lib/foobarqix.rb
 
 foobarqix(15)
 => "foobarbar"
+
+foobarqix(13)
+=> "foo"
+
+foobarqix(21)
+=> "fooqix"
 ```
