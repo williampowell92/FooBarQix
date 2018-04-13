@@ -24,4 +24,8 @@ describe "foobarqix" do
   it "returns bar when integer contains 5" do
     expect(foobarqix(52)).to eq "bar"
   end
+
+  it "returns qix when integer contains 7" do
+    expect(foobarqix(47)).to eq "qix"
+  end
 end
