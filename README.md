@@ -27,4 +27,7 @@ foobarqix(13)
 
 foobarqix(21)
 => "fooqix"
+
+foobarqix(2)
+=> 2
 ```
