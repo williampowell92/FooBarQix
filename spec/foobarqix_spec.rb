@@ -1,3 +1,5 @@
+require 'simplecov'
+SimpleCov.start
 require 'foobarqix'
 
 describe "foobarqix" do

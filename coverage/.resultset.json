@@ -1,0 +1,42 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/williampowell/Google Drive/Projects/foobarqix/lib/foobarqix.rb": [
+        1,
+        15,
+        15,
+        15,
+        15,
+        15,
+        null,
+        null,
+        1,
+        15,
+        null,
+        15,
+        25,
+        25,
+        25,
+        null,
+        null,
+        15,
+        null,
+        null,
+        1,
+        15,
+        1,
+        null,
+        14,
+        null,
+        null,
+        null,
+        1,
+        15,
+        15,
+        15,
+        null
+      ]
+    },
+    "timestamp": 1523639518
+  }
+}
