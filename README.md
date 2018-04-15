@@ -1,5 +1,7 @@
 # FooBarQix
 
+[![Build Status](https://travis-ci.org/williampowell92/foobarqix.svg?branch=master)](https://travis-ci.org/williampowell92/foobarqix)
+
 Practicing pairing and TDD with foobarqix ruby kata.
 
 source:
